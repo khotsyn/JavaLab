@@ -1,8 +1,8 @@
-package Task1;
+package task1;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
-import static Task1.Task1_2.AreaAccessoryPoint.*;
+import static task1.task1_2.AreaAccessoryPoint.*;
 
 public class TestAreaAccessoryPoint {
 

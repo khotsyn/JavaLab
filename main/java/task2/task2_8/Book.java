@@ -1,19 +1,27 @@
-package task1.task1_12;
+package task2.task2_8;
 
-public class Book implements Cloneable, Comparable<Book> {
+public class Book {
     private String title;
     private String author;
     private int price;
-    private int isbn;
     private static int editor;
 
-    public Book(int isbn) {
-        this.isbn = isbn;
+    public Book(String title, String author, int price) {
+        this.title = title;
+        this.author = author;
+        this.price = price;
     }
 
-    public int compareTo(Book book) {
-        int bookIsbn = book.isbn;
-        return this.isbn - bookIsbn;
+    public String getTitle() {
+        return title;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public int getPrice() {
+        return price;
     }
 
     @Override
@@ -29,9 +37,6 @@ public class Book implements Cloneable, Comparable<Book> {
         }
         Book other = (Book) obj;
         if (price != other.price) {
-            return false;
-        }
-        if (isbn != other.isbn) {
             return false;
         }
         if (null == title) {
@@ -56,7 +61,6 @@ public class Book implements Cloneable, Comparable<Book> {
     public int hashCode() {
         int hash = 1;
         hash = hash * 31 + price;
-        hash = hash * 31 + isbn;
         hash = hash * 31 + (title == null ? 0 : title.hashCode());
         hash = hash * 31 + (author == null ? 0 : author.hashCode());
         return hash;
@@ -66,13 +70,6 @@ public class Book implements Cloneable, Comparable<Book> {
     public String toString() {
         String obj = "\"" + title + "\" " + author + " " + price + "$";
         return obj;
-    }
-
-    @Override
-    public Book clone() throws CloneNotSupportedException {
-        Book book = null;
-        book = (Book) super.clone();
-        return book;
     }
 
 }

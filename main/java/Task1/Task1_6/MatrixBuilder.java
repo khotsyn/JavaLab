@@ -1,4 +1,4 @@
-package Task1.Task1_6;
+package task1.task1_6;
 
 public class MatrixBuilder {
 

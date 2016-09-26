@@ -1,4 +1,4 @@
-package Task1.Task1_1;
+package task1.task1_1;
 
 
 public class Function {

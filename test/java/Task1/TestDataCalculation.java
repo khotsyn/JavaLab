@@ -1,7 +1,7 @@
-package Task1;
+package task1;
 
 import org.junit.Test;
-import static Task1.Task1_3.DataCalculation.*;
+import static task1.task1_3.DataCalculation.*;
 import static org.junit.Assert.*;
 
 public class TestDataCalculation {

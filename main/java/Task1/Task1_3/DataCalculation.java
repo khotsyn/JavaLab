@@ -1,4 +1,4 @@
-package Task1.Task1_3;
+package task1.task1_3;
 
 
 public class DataCalculation {

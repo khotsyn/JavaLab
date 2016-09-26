@@ -1,7 +1,4 @@
-package Task1;
-
-import Task1.Task1_9.BallColour;
-import Task1.Task1_9.Basket;
+package task1;
 
 public class StartProgram {
     public static void main(String[] args) {

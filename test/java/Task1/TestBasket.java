@@ -1,7 +1,7 @@
-package Task1;
+package task1;
 
-import Task1.Task1_9.BallColour;
-import Task1.Task1_9.Basket;
+import task1.task1_9.BallColour;
+import task1.task1_9.Basket;
 import org.junit.Test;
 import static org.junit.Assert.*;
 

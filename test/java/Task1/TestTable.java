@@ -1,7 +1,7 @@
-package Task1;
+package task1;
 
 import org.junit.Test;
-import Task1.Task1_3.Table;
+import task1.task1_3.Table;
 import static org.junit.Assert.*;
 
 public class TestTable {

@@ -1,4 +1,4 @@
-package Task1.Task1_2;
+package task1.task1_2;
 
 
 public class AreaAccessoryPoint {

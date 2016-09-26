@@ -1,8 +1,8 @@
-package Task1;
+package task1;
 
 import org.junit.Test;
 
-import static Task1.Task1_1.Function.fn;
+import static task1.task1_1.Function.fn;
 import static org.junit.Assert.*;
 
 public class TestFunction {

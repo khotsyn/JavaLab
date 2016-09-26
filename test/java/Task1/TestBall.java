@@ -1,6 +1,6 @@
-package Task1;
+package task1;
 
-import Task1.Task1_9.Ball;
+import task1.task1_9.Ball;
 import org.junit.Test;
 import static org.junit.Assert.*;
 

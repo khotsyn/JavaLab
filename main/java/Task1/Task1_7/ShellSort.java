@@ -1,4 +1,4 @@
-package Task1.Task1_7;
+package task1.task1_7;
 
 public class ShellSort {
 

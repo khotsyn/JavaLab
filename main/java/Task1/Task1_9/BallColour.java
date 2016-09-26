@@ -1,4 +1,4 @@
-package Task1.Task1_9;
+package task1.task1_9;
 
 public enum BallColour {
     RED,

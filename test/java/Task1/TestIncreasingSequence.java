@@ -1,6 +1,6 @@
-package Task1;
+package task1;
 
-import Task1.Task1_8.IncreasingSequence;
+import task1.task1_8.IncreasingSequence;
 import org.junit.Test;
 import static org.junit.Assert.*;
 

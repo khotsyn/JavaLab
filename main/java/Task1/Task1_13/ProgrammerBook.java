@@ -1,12 +1,16 @@
-package Task1.Task1_13;
+package task1.task1_13;
 
 
-import Task1.Task1_12.Book;
+import task1.task1_12.Book;
 
 public class ProgrammerBook extends Book {
 
     private String language;
     private int level;
+
+    public ProgrammerBook(int isbn) {
+        super(isbn);
+    }
 
     @Override
     public boolean equals(Object obj) {

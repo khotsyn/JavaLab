@@ -1,4 +1,4 @@
-package Task1.Task1_8;
+package task1.task1_8;
 
 public class IncreasingSequence {
 

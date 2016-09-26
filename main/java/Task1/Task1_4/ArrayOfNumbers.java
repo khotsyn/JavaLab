@@ -1,4 +1,4 @@
-package Task1.Task1_4;
+package task1.task1_4;
 
 public class ArrayOfNumbers {
 
